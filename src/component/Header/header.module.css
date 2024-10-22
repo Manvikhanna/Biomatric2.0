@@ -1,0 +1,14 @@
+.header{
+ 
+  height: 70px;
+  width: 100%;
+  padding: 15px;
+  margin-top: 0px;
+  /* border: 1px solid black; */
+  background: rgba(11, 175, 240, 0.202);
+  z-index: -1;
+  position: relative;
+  color: white;
+  font-size:16px;
+  font-family: sans-serif;
+}
