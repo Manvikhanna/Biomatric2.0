@@ -2,17 +2,18 @@ import Input from "../Input/input";
 import Box from "../Box/box";
 import style from "./form.module.css"
 import Header from "../Header/header";
+import StorageData from "../StorageData/storageData";
 
 function form() {
   return (
     <>
-    <Header />
-    <div className={style['container']}>
+    <Header headerTitle="Admin Login" />
+    <div className={style.container}>
      <Input />
+     <StorageData />
      <Box />
      </div>
     </>
   );
 }
-
 export default form;

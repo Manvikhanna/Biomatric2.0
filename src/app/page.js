@@ -1,12 +1,14 @@
-
+"use client";
 import Form from "@/component/Form/form";
+import { useState } from "react";
+import Header from "../component/Header/header";
+function Home() {
+  const [loading, setLoading] = useState(true);
 
- function Home() {
   return (
-   <>
-    
-     <Form />
-   </>
-  )
+    <>
+      <Form />
+    </>
+  );
 }
 export default Home;
